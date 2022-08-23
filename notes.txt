@@ -13,9 +13,9 @@ code .
 
 
 Starting up the Dev Server:
-In the terminal use the command in the foler the app is located ie in the react-task-tracker folder in this case
+In the terminal use the command in the folder the app is located ie in the react-task-tracker folder in this case
 npm start
-when it has started lick the link displayed
+when it has started a new page should open or click the link displayed in the terminal
 
 
 
