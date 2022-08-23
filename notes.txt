@@ -1,0 +1,27 @@
+Setting up a React App:
+
+Navigate to folder you want to create the app in
+check have npm installed using cmd and the command 
+npm --version
+then create the app using the the following command, can call app whatever you want
+npx create-react-app react-task-tracker
+
+can then cd into the new app folder using the following command,
+cd react-tak-tracker/
+code . 
+
+
+
+Starting up the Dev Server:
+In the terminal use the command in the foler the app is located ie in the react-task-tracker folder in this case
+npm start
+when it has started lick the link displayed
+
+
+
+Building out App:
+All our coponets will be in App.js and this will be put into the div (<div id="root"></div>) on line 31 of index.html
+
+
+Comments:
+Use /* */ like JS but must be wrapped in {} eg  {/*<h2>Hello {name}</h2>*/}
