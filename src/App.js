@@ -1,10 +1,9 @@
 import Header from "./components/Header";
 
-function App() {
+const App = () => {
 
   //const name = 'Jason'
   //const x = true
-
 
   return (
     <div className="container">
@@ -12,6 +11,7 @@ function App() {
       {/*<h2>Hello {name}</h2>*/}
       {/*<h2> {1+2}</h2>
       <h2>{x ? 'Yes' : 'No'}</h2>*/}
+
       <Header />
     </div>
   );
