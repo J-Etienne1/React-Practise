@@ -25,3 +25,14 @@ All our coponets will be in App.js and this will be put into the div (<div id="r
 
 Comments:
 Use /* */ like JS but must be wrapped in {} eg  {/*<h2>Hello {name}</h2>*/}
+
+
+
+rafc fuction shortcut:
+import React from 'react'
+const Header = () => {
+  return (
+    <div>Header</div>
+  )
+}
+export default Header
