@@ -1,8 +1,9 @@
-import React from 'react'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <header>
+        <h1>Task Tracker</h1>
+    </header>
   )
 }
 

@@ -28,7 +28,7 @@ Use /* */ like JS but must be wrapped in {} eg  {/*<h2>Hello {name}</h2>*/}
 
 
 
-rafc fuction shortcut:
+rafc fuction shortcut:  side note, dont need import anymore
 import React from 'react'
 const Header = () => {
   return (
