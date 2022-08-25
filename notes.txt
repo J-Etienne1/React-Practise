@@ -27,7 +27,7 @@ Comments:
 Use /* */ like JS but must be wrapped in {} eg  {/*<h2>Hello {name}</h2>*/}
 
 
-
+Arrow Function shortcut:
 rafce creates an arrow fuction shortcut:  side note, dont need import anymore
 import React from 'react'
 const Header = () => {
