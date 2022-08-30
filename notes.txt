@@ -36,3 +36,30 @@ const Header = () => {
   )
 }
 export default Header 
+
+
+
+
+Deploy a Production build:
+in the terminal enter - npm run build
+This will create an optimized production build in a colder called build
+
+Static Server:
+To test our production build using a static server, in the terminal enter - 
+npm i -g serve
+
+the enter: serve -s build -p 8000  (-p = port, 8000 is the port number)
+if getting the following error 
+cannot be loaded because running    
+scripts is disabled on this system
+
+To resolve run PowerShell as Admin and enter 
+Open PowerShell Console by selecting “Run as Administrator” and set the execution Policy with the command: Set-ExecutionPolicy RemoteSigned
+Type “Y” when prompted to proceed 
+
+
+
+
+
+
+
