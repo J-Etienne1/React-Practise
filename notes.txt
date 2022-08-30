@@ -11,6 +11,8 @@ cd react-tak-tracker/
 code . 
 
 
+===================================================================================
+
 
 Starting up the Dev Server:
 In the terminal use the command in the folder the app is located ie in the react-task-tracker folder in this case
@@ -19,13 +21,22 @@ when it has started a new page should open or click the link displayed in the te
 
 
 
+===================================================================================
+
+
 Building out App:
 All our coponets will be in App.js and this will be put into the div (<div id="root"></div>) on line 31 of index.html
+
+
+===================================================================================
 
 
 Comments:
 Use /* */ like JS but must be wrapped in {} eg  {/*<h2>Hello {name}</h2>*/}
 
+
+
+===================================================================================
 
 Arrow Function shortcut:
 rafce creates an arrow fuction shortcut:  side note, dont need import anymore
@@ -38,7 +49,7 @@ const Header = () => {
 export default Header 
 
 
-
+===================================================================================
 
 Deploy a Production build:
 in the terminal enter - npm run build
@@ -58,8 +69,26 @@ Open PowerShell Console by selecting “Run as Administrator” and set the exec
 Type “Y” when prompted to proceed 
 
 
+===================================================================================
+
+Setting up a mock Server (JSON Server):
+In the terminal enter npm i json-server
+
+then in package.json add a script 
+"server": "json-server --watch db.json --port 5000"
+
+then in the terminal enter npm run server
+db will then be created as servr is spun up, in this example db.json
 
 
 
+
+
+
+===================================================================================
+
+Routing:
+In the terminal enter npm i react-router-dom
+this will show up in our package file
 
 
